@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lingtai Radio</title>
+    <meta
+      name="description"
+      content="Lingtai Radio — hourly instrumental broadcasts from the Lingtai grotto."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Lingtai Radio</h1>
+      <p class="tagline">
+        Hourly instrumental broadcasts from the Lingtai grotto —
+        Bodhi, Guanyin, Monkey King, and the long road west.
+      </p>
+    </header>
+
+    <main>
+      <section class="player">
+        <div id="now-playing" class="now-playing">
+          <div class="np-title">Loading the latest broadcast…</div>
+          <div class="np-meta"></div>
+        </div>
+        <audio id="audio" controls preload="none"></audio>
+      </section>
+
+      <section class="playlist">
+        <h2>Broadcasts</h2>
+        <ol id="tracks" class="tracks">
+          <li class="empty">No tracks yet. Check back at the top of the hour.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <a href="https://lingtai.ai">lingtai.ai</a> · generated hourly ·
+        <a href="https://github.com/Lingtai-AI/radio.lingtai.ai">source</a>
+      </p>
+    </footer>
+
+    <script src="radio.js"></script>
+  </body>
+</html>
