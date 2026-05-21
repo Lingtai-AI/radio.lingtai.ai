@@ -27,7 +27,7 @@ logs/hourly.log                appended each run
 
 - macOS with `launchd`
 - `git`, `python3`, `gh`
-- MiniMax `mmx` CLI on `PATH`, already authenticated
+- MiniMax `mmx` CLI on `PATH`, already authenticated. This site defaults to `music-2.6`; override with `LINGTAI_RADIO_MUSIC_MODEL` if the plan changes.
 
 ## First-time setup
 

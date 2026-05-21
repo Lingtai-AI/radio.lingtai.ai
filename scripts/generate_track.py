@@ -177,7 +177,7 @@ def main() -> int:
         "music",
         "generate",
         "--model",
-        "music-2.6-free",
+        os.environ.get("LINGTAI_RADIO_MUSIC_MODEL", "music-2.6"),
         "--prompt",
         prompt,
         "--instrumental",
