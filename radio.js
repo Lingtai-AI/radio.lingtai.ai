@@ -106,16 +106,50 @@
 
   // --- audio events -----------------------------------------------------
 
+  // Treat a pause as an explicit user pause only if it didn't happen at
+  // the natural end of the clip. Some browsers fire `pause` immediately
+  // before `ended`, and `<audio loop>` is unreliable for some MP3s, so
+  // we use the `ended` handler below as a deterministic replay fallback.
+  function isNaturalEndPause() {
+    if (audio.ended) return true;
+    var dur = audio.duration;
+    if (!isFinite(dur) || dur <= 0) return false;
+    return dur - audio.currentTime < 0.5;
+  }
+
   audio.addEventListener("pause", function () {
     if (suppressPauseEvent) return;
-    if (!audio.ended && audio.currentSrc) {
-      userPausedExplicitly = true;
-    }
+    if (!audio.currentSrc) return;
+    if (isNaturalEndPause()) return;
+    userPausedExplicitly = true;
   });
+
   audio.addEventListener("play", function () {
     userPausedExplicitly = false;
     autoplayBlocked = false;
     setStatus("");
+  });
+
+  // Belt-and-braces loop: if `<audio loop>` is honored we never see
+  // `ended`. If it isn't (some Safari versions, some encoder/MIME edge
+  // cases for generated MP3s), `ended` fires and we replay from 0 —
+  // unless the user explicitly paused, which we ruled out above.
+  audio.addEventListener("ended", function () {
+    if (userPausedExplicitly) return;
+    try {
+      audio.currentTime = 0;
+    } catch (e) {
+      // Some browsers throw if metadata isn't ready; ignore.
+    }
+    suppressPauseEvent = true;
+    var p = audio.play();
+    suppressPauseEvent = false;
+    if (p && typeof p.catch === "function") {
+      p.catch(function () {
+        autoplayBlocked = true;
+        setStatus(s("tapPlay"), "warn");
+      });
+    }
   });
 
   // --- formatting helpers ----------------------------------------------
