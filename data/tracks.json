@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260522-060000",
+    "title": "Lingtai Study Music — 2026-05-22 06:00",
+    "created_at": "2026-05-22T13:00:00+00:00",
+    "prompt": "sunrise over the western road, hopeful guzheng; Guanyin standing on a lotus, looking down at a far shore; with a hint of incense smoke drifting through the Lingtai cave at dawn; east asian classical fusion, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, cinematic.",
+    "file": "assets/tracks/20260522-060000.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sunrise over the western road",
+        "zh": "灵台学习音乐 · 西路日升",
+        "wy": "灵台诵读之曲 · 西路日出"
+      },
+      "prompt": {
+        "en": "Sunrise over the western road; a hint of Guanyin, with Lingtai grotto in the distance.",
+        "zh": "西路日升；近现观音意，远透灵台洞府韵。",
+        "wy": "西路日出；近寓观自在之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260522-050005",
     "title": "Lingtai Study Music — 2026-05-22 05:00",
     "created_at": "2026-05-22T12:00:05+00:00",
