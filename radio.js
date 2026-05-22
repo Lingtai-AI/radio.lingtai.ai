@@ -2,8 +2,10 @@
   "use strict";
 
   // Lingtai Radio: a semi-live study music stream.
-  // Plays the newest track in data/tracks.json on loop, polls every POLL_MS
-  // for a new top track, and switches over without stopping the user.
+  // Plays a queue derived from data/tracks.json (newest first), polls
+  // every POLL_MS for a new top track, and switches over without
+  // stopping the user. When a track ends naturally we advance to the
+  // next track in the queue instead of looping the same MP3.
   // UI renders in a single chosen language at a time (en | zh | wy),
   // persisted in localStorage under LANG_KEY.
 
@@ -22,6 +24,7 @@
   var recentEl = document.getElementById("recent-list");
 
   var currentId = null;
+  var queueIndex = 0;
   var wasPlaying = false;
   var userPausedExplicitly = false;
   var autoplayBlocked = false;
@@ -88,7 +91,9 @@
 
     // Re-render dynamic regions in the new language.
     if (latestTracks && latestTracks.length) {
-      renderCurrent(latestTracks[0]);
+      var cur =
+        latestTracks[queueIndex] || latestTracks[0];
+      renderCurrent(cur);
       renderRecent(latestTracks);
     } else {
       renderStandby();
@@ -106,10 +111,9 @@
 
   // --- audio events -----------------------------------------------------
 
-  // Treat a pause as an explicit user pause only if it didn't happen at
-  // the natural end of the clip. Some browsers fire `pause` immediately
-  // before `ended`, and `<audio loop>` is unreliable for some MP3s, so
-  // we use the `ended` handler below as a deterministic replay fallback.
+  // Distinguish an explicit user pause from the `pause` event browsers
+  // fire just before `ended`. We never use <audio loop>; instead the
+  // `ended` handler advances the queue to the next track.
   function isNaturalEndPause() {
     if (audio.ended) return true;
     var dur = audio.duration;
@@ -130,26 +134,14 @@
     setStatus("");
   });
 
-  // Belt-and-braces loop: if `<audio loop>` is honored we never see
-  // `ended`. If it isn't (some Safari versions, some encoder/MIME edge
-  // cases for generated MP3s), `ended` fires and we replay from 0 —
-  // unless the user explicitly paused, which we ruled out above.
   audio.addEventListener("ended", function () {
     if (userPausedExplicitly) return;
-    try {
-      audio.currentTime = 0;
-    } catch (e) {
-      // Some browsers throw if metadata isn't ready; ignore.
-    }
-    suppressPauseEvent = true;
-    var p = audio.play();
-    suppressPauseEvent = false;
-    if (p && typeof p.catch === "function") {
-      p.catch(function () {
-        autoplayBlocked = true;
-        setStatus(s("tapPlay"), "warn");
-      });
-    }
+    if (!latestTracks.length) return;
+    // Advance through current + recent pieces. Wrap only after the
+    // last entry so we don't immediately repeat the same MP3 unless
+    // there is genuinely only one piece in the queue.
+    queueIndex = (queueIndex + 1) % latestTracks.length;
+    swapTo(latestTracks[queueIndex], { forcePlay: true });
   });
 
   // --- formatting helpers ----------------------------------------------
@@ -343,7 +335,7 @@
     var hadSrc = !!audio.currentSrc;
     suppressPauseEvent = true;
     audio.src = t.file;
-    audio.loop = true;
+    audio.loop = false;
     suppressPauseEvent = false;
     currentId = t.id;
     renderCurrent(t);
@@ -360,8 +352,19 @@
     }
   }
 
+  function indexOfId(id) {
+    for (var i = 0; i < latestTracks.length; i++) {
+      if (latestTracks[i].id === id) return i;
+    }
+    return -1;
+  }
+
   function playSpecific(t) {
+    // Manual click in the recent list: play that piece and continue
+    // the queue from the following entry on ended.
     userPausedExplicitly = false;
+    var idx = indexOfId(t.id);
+    if (idx >= 0) queueIndex = idx;
     swapTo(t, { forcePlay: true });
   }
 
@@ -381,18 +384,31 @@
         setLive(true);
         if (!Array.isArray(tracks) || tracks.length === 0) {
           latestTracks = [];
+          queueIndex = 0;
           renderStandby();
           return;
         }
 
+        var prevTopId = latestTracks.length ? latestTracks[0].id : null;
         latestTracks = tracks;
         var top = tracks[0];
         wasPlaying = !audio.paused && !audio.ended;
 
-        if (top.id !== currentId) {
+        if (currentId == null) {
+          // First fetch with content; start the station from the top.
+          queueIndex = 0;
+          swapTo(top);
+        } else if (top.id !== prevTopId) {
+          // A new hourly piece just arrived. Jump to it and resume
+          // playback if the user was already listening.
+          queueIndex = 0;
           swapTo(top);
         } else {
-          renderCurrent(top);
+          // Same head; keep the listener wherever they are in the queue.
+          // Reanchor queueIndex against the (possibly reshuffled) array.
+          var idx = indexOfId(currentId);
+          if (idx >= 0) queueIndex = idx;
+          renderCurrent(latestTracks[queueIndex] || top);
         }
         renderRecent(tracks);
       })

@@ -6,7 +6,7 @@
     <title>Lingtai Radio — Study Music</title>
     <meta
       name="description"
-      content="Lingtai Radio — a semi-live study music stream from the Lingtai grotto. One looping piece, refreshed every hour."
+      content="Lingtai Radio — a semi-live study music stream from the Lingtai grotto. A new piece every hour; the player continues through current and recent pieces."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -25,9 +25,9 @@
 
       <p
         class="tagline"
-        data-i18n-en="Study music from the Lingtai grotto — one piece on loop, a new one every hour."
-        data-i18n-zh="学习音乐 · 灵台洞府每小时一曲，单曲循环。"
-        data-i18n-wy="灵台一曲，循环不息；时至换新。"
+        data-i18n-en="Study music from the Lingtai grotto — a new piece every hour; the player continues through current and recent pieces."
+        data-i18n-zh="学习音乐 · 灵台洞府每小时一曲，自动续播近期曲目。"
+        data-i18n-wy="灵台之音，每时新曲；续播近作，不止一阕。"
       ></p>
     </header>
 
@@ -58,7 +58,7 @@
           <div class="np-prompt" id="np-prompt"></div>
         </div>
 
-        <audio id="audio" controls preload="auto" loop></audio>
+        <audio id="audio" controls preload="auto"></audio>
 
         <div class="status" id="status" role="status"></div>
       </section>
