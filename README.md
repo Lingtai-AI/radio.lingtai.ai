@@ -32,6 +32,46 @@ deploy/com.lingtai.radio-hourly.plist.example
 logs/hourly.log                appended each run
 ```
 
+## How generation works today
+
+The pipeline is a single hourly fire-and-forget chain, no server, no
+queue:
+
+1. **macOS `launchd`** (`deploy/com.lingtai.radio-hourly.plist.example`,
+   copied to `~/Library/LaunchAgents/`) fires every hour at minute 0
+   via `StartCalendarInterval`. Equivalent cron line, if you prefer
+   cron: `0 * * * * /bin/bash /Users/huangzesen/work/GitHub/radio.lingtai.ai/scripts/run_hourly.sh`.
+2. **`scripts/run_hourly.sh`** acquires an atomic `.radio-lock/`
+   directory, `git pull --rebase`s, then invokes the Python generator,
+   tee-ing output to `logs/hourly.log`. On exit (success or failure)
+   the lock is released by a `trap`.
+3. **`scripts/generate_track.py`** picks an hour-keyed prompt across
+   the Lingtai / Bodhi / Guanyin / Monkey King motifs, builds
+   deterministic trilingual `display` metadata (no external APIs),
+   and runs `mmx music generate --model music-2.6 --instrumental
+   --out assets/tracks/<slug>.mp3 …`.
+4. The script prepends the new record to `data/tracks.json`, writes
+   `notes/<slug>.md` with the prompt + command, and returns.
+5. `run_hourly.sh` then `git add`s, commits as
+   `radio: add hourly track <ts>` (only if something is staged), and
+   `git push`es. GitHub Pages picks up the new files; the page polls
+   `data/tracks.json` about once a minute and swaps to the new piece.
+
+That's it — no server, no scheduler service, no API. Failure is
+self-healing: a bad `mmx` run leaves the previous piece in place and
+the next hour tries again.
+
+### Possible future direction: cron + `claude -p`
+
+A future iteration could replace the static prompt-picker with a
+`claude -p` call (Claude Code in headless / non-interactive mode)
+driven by the same hourly cron, e.g. to compose richer trilingual
+metadata or curate the motif pool against the recent history in
+`data/tracks.json`. That is **not** how things work today — the
+current pipeline above is purely local Python + `mmx` — but the
+hourly worker pattern is the same, so the swap would be confined to
+`scripts/generate_track.py`.
+
 ## Prerequisites
 
 - macOS with `launchd`
