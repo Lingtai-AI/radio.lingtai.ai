@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lingtai Radio — Study Music / 学习音乐</title>
+    <title>Lingtai Radio — Study Music</title>
     <meta
       name="description"
       content="Lingtai Radio — a semi-live study music stream from the Lingtai grotto. One looping piece, refreshed every hour."
@@ -16,49 +16,46 @@
         <h1>Lingtai Radio</h1>
         <div class="live-dot" id="live-dot" aria-hidden="true"></div>
       </div>
-      <p class="tagline tagline-en">
-        Study music from the Lingtai grotto — one piece on loop, a new one every hour.
-      </p>
-      <p class="tagline tagline-zh">学习音乐 · 灵台洞府每小时一曲，单曲循环。</p>
-      <p class="tagline tagline-wy">灵台一曲，循环不息；时至换新。</p>
+
+      <nav class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="en">English</button>
+        <button type="button" class="lang-btn" data-lang="zh">中文</button>
+        <button type="button" class="lang-btn" data-lang="wy">文言</button>
+      </nav>
+
+      <p
+        class="tagline"
+        data-i18n-en="Study music from the Lingtai grotto — one piece on loop, a new one every hour."
+        data-i18n-zh="学习音乐 · 灵台洞府每小时一曲，单曲循环。"
+        data-i18n-wy="灵台一曲，循环不息；时至换新。"
+      ></p>
     </header>
 
     <main>
       <aside class="callout" role="note" aria-label="Hourly worker status">
         <div class="callout-icon" aria-hidden="true">⏱</div>
         <div class="callout-body">
-          <p class="callout-en">
-            An hourly worker (macOS <code>launchd</code> / cron) runs on
-            the top of every hour and generates a new study piece. The
-            page auto-refreshes when the new piece lands.
-          </p>
-          <p class="callout-zh">
-            每小时自动生成：本地 <code>launchd</code> / cron 任务在每小时整点
-            生成一首新的学习音乐，页面会自动刷新切换。
-          </p>
-          <p class="callout-wy">
-            每时之首，刻漏所至，cron 自运而新曲自成；页面随之而易。
-          </p>
+          <p
+            class="callout-text"
+            data-i18n-html-en='An hourly worker (macOS <code>launchd</code> / cron) runs on the top of every hour and generates a new study piece. The page auto-refreshes when the new piece lands.'
+            data-i18n-html-zh='每小时自动生成：本地 <code>launchd</code> / cron 任务在每小时整点生成一首新的学习音乐，页面会自动刷新切换。'
+            data-i18n-html-wy='每时之首，刻漏所至，cron 自运而新曲自成；页面随之而易。'
+          ></p>
         </div>
       </aside>
 
       <section class="player" aria-live="polite">
-        <div class="np-label">
-          <span>Now playing</span>
-          <span>当前曲子</span>
-          <span>方播之曲</span>
-        </div>
+        <div
+          class="np-label"
+          data-i18n-en="Now playing"
+          data-i18n-zh="当前曲子"
+          data-i18n-wy="方播之曲"
+        ></div>
 
         <div id="now-playing" class="now-playing">
-          <div class="np-title" id="np-title-en">Tuning in…</div>
-          <div class="np-title np-title-zh" id="np-title-zh">正在接通…</div>
-          <div class="np-title np-title-wy" id="np-title-wy">方调清音……</div>
-
+          <div class="np-title" id="np-title"></div>
           <div class="np-meta" id="np-meta"></div>
-
-          <div class="np-prompt" id="np-prompt-en"></div>
-          <div class="np-prompt np-prompt-zh" id="np-prompt-zh"></div>
-          <div class="np-prompt np-prompt-wy" id="np-prompt-wy"></div>
+          <div class="np-prompt" id="np-prompt"></div>
         </div>
 
         <audio id="audio" controls preload="auto" loop></audio>
@@ -67,43 +64,56 @@
       </section>
 
       <section class="recent">
-        <h2>
-          <span>Recent pieces</span>
-          <span class="zh">近期曲目</span>
-          <span class="wy">前奏数阕</span>
-        </h2>
+        <h2
+          data-i18n-en="Recent pieces"
+          data-i18n-zh="近期曲目"
+          data-i18n-wy="前奏数阕"
+        ></h2>
         <ol id="recent-list" class="recent-list">
-          <li class="empty">No recent pieces yet. / 暂无 / 阙如。</li>
+          <li
+            class="empty"
+            data-i18n-en="No recent pieces yet."
+            data-i18n-zh="暂无近期曲目。"
+            data-i18n-wy="近曲阙如。"
+          ></li>
         </ol>
       </section>
 
       <section class="tip">
-        <h2>
-          <span>Tip the broadcaster</span>
-          <span class="zh">微信支付打赏</span>
-          <span class="wy">投以微赀</span>
-        </h2>
-        <p class="tip-blurb">
-          If Lingtai Radio helps you study, you can leave a small WeChat tip.
-          <br />
-          <span class="zh">若此电台助君攻读，可微信小额随喜。</span>
-          <br />
-          <span class="wy">若此曲佐君笃学，敢请微赀以续香火。</span>
-        </p>
+        <h2
+          data-i18n-en="Tip the broadcaster"
+          data-i18n-zh="微信支付打赏"
+          data-i18n-wy="投以微赀"
+        ></h2>
+        <p
+          class="tip-blurb"
+          data-i18n-en="If Lingtai Radio helps you study, you can leave a small WeChat tip."
+          data-i18n-zh="若此电台助君攻读，可微信小额随喜。"
+          data-i18n-wy="若此曲佐君笃学，敢请微赀以续香火。"
+        ></p>
         <figure class="tip-qr">
           <img
             src="assets/wechat-pay-tip.jpg"
             alt="WeChat Pay QR code for Lingtai Radio tips"
             loading="lazy"
           />
-          <figcaption>WeChat Pay · 微信支付 · 扫码打赏</figcaption>
+          <figcaption
+            data-i18n-en="WeChat Pay · scan to tip"
+            data-i18n-zh="微信支付 · 扫码打赏"
+            data-i18n-wy="微信支付 · 扫码投赀"
+          ></figcaption>
         </figure>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>
-        <a href="https://lingtai.ai">lingtai.ai</a> · a new piece every hour ·
+        <a href="https://lingtai.ai">lingtai.ai</a>
+        <span
+          data-i18n-en=" · a new piece every hour · "
+          data-i18n-zh=" · 每小时一首新曲 · "
+          data-i18n-wy=" · 时至而新 · "
+        ></span>
         <a href="https://github.com/Lingtai-AI/radio.lingtai.ai">source</a>
       </p>
     </footer>
