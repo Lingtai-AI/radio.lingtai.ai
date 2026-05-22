@@ -76,8 +76,46 @@ HOURLY_MOODS = [
     "approaching midnight, returning to stillness",                      # 23
 ]
 
+# Trilingual hourly study-music captions — deterministic, no external APIs.
+# Index by local hour (0..23). EN/ZH/WY rows are aligned.
+HOURLY_TRI = [
+    ("Midnight stillness", "子夜寂", "夜阑寂寂"),                      # 00
+    ("The hour of the rat", "鼠时清", "鼠时初静"),                      # 01
+    ("Ink wash before dawn", "墨色未明", "未旦如墨"),                  # 02
+    ("Monastery courtyard waking", "寅时初醒", "山门初启"),            # 03
+    ("First light on pine ridges", "松岭初晖", "松岭微明"),            # 04
+    ("Morning bell", "晨钟", "晨钟一杵"),                              # 05
+    ("Sunrise over the western road", "西路日升", "西路日出"),         # 06
+    ("Tea on a stone table", "石上煮茶", "石几瀹茗"),                  # 07
+    ("Pilgrims set out", "行者启程", "行者发足"),                      # 08
+    ("Midmorning on yellow earth", "黄土晌前", "黄壤晨光"),            # 09
+    ("Wind across the desert", "大漠风行", "塞外风行"),                # 10
+    ("Noon meditation", "午中入定", "正午宴坐"),                       # 11
+    ("Midday heat shimmer", "正午光摇", "日中光颤"),                   # 12
+    ("Afternoon clouds gathering", "午后云聚", "午后云生"),            # 13
+    ("Shadows lengthening", "影渐长", "日影渐斜"),                     # 14
+    ("Tea at the hour of the monkey", "申时点茶", "申时奉茶"),         # 15
+    ("Sun low over distant peaks", "远峰夕照", "远岫夕晖"),            # 16
+    ("Evening bell across the valley", "暮钟过谷", "暮钟度壑"),        # 17
+    ("Lanterns lit one by one", "灯火渐燃", "次第燃灯"),               # 18
+    ("Night meditation", "夜坐", "夜坐参禅"),                          # 19
+    ("Stars over the grotto", "洞府繁星", "洞天星河"),                 # 20
+    ("The hour of the dog", "戌时远钟", "戌时遥钟"),                   # 21
+    ("Lamp-lit writing", "灯下抄书", "孤灯弄翰"),                      # 22
+    ("Returning to stillness", "复归于寂", "复归于寂"),                # 23
+]
 
-def pick_prompt(now_local: dt.datetime) -> str:
+# Trilingual labels for each motif key, used to compose the prompt summary.
+MOTIF_LABELS = {
+    "lingtai": ("Lingtai grotto", "灵台洞府", "灵台洞天"),
+    "bodhi": ("the Bodhi patriarch", "菩提祖师", "菩提老祖"),
+    "guanyin": ("Guanyin", "观音", "观自在"),
+    "monkey_king": ("the Monkey King", "美猴王", "齐天大圣"),
+}
+
+
+def pick_prompt(now_local: dt.datetime) -> tuple[str, str, str]:
+    """Return (prompt_text, primary_motif_key, secondary_motif_key)."""
     hour = now_local.hour
     mood = HOURLY_MOODS[hour % 24]
 
@@ -100,10 +138,40 @@ def pick_prompt(now_local: dt.datetime) -> str:
     ]
     random.shuffle(style_tags)
 
-    return (
+    prompt_text = (
         f"{mood}; {primary}; with a hint of {secondary}; "
         f"{', '.join(style_tags[:4])}."
     )
+    return prompt_text, primary_key, secondary_key
+
+
+def build_display(
+    now_local: dt.datetime,
+    primary_key: str,
+    secondary_key: str,
+) -> dict:
+    """Deterministic trilingual metadata derived from hour + motif keys.
+
+    Future-proof: stored under record["display"], frontend has fallbacks
+    so older records without it still render.
+    """
+    hour = now_local.hour % 24
+    mood_en, mood_zh, mood_wy = HOURLY_TRI[hour]
+    p_en, p_zh, p_wy = MOTIF_LABELS[primary_key]
+    s_en, s_zh, s_wy = MOTIF_LABELS[secondary_key]
+
+    title_en = f"Lingtai Study Music — {mood_en}"
+    title_zh = f"灵台学习音乐 · {mood_zh}"
+    title_wy = f"灵台诵读之曲 · {mood_wy}"
+
+    prompt_en = f"{mood_en}; a hint of {p_en}, with {s_en} in the distance."
+    prompt_zh = f"{mood_zh}；近现{p_zh}意，远透{s_zh}韵。"
+    prompt_wy = f"{mood_wy}；近寓{p_wy}之意，远含{s_wy}之韵。"
+
+    return {
+        "title": {"en": title_en, "zh": title_zh, "wy": title_wy},
+        "prompt": {"en": prompt_en, "zh": prompt_zh, "wy": prompt_wy},
+    }
 
 
 def load_tracks() -> list[dict]:
@@ -167,7 +235,8 @@ def main() -> int:
     slug = now_local.strftime("%Y%m%d-%H%M%S")
     timestamp = now_utc.isoformat(timespec="seconds")
 
-    prompt = pick_prompt(now_local)
+    prompt, primary_key, secondary_key = pick_prompt(now_local)
+    display = build_display(now_local, primary_key, secondary_key)
 
     TRACKS_DIR.mkdir(parents=True, exist_ok=True)
     out_file = TRACKS_DIR / f"{slug}.mp3"
@@ -228,7 +297,7 @@ def main() -> int:
         )
         return 1
 
-    title = now_local.strftime("Lingtai Broadcast — %Y-%m-%d %H:%M")
+    title = now_local.strftime("Lingtai Study Music — %Y-%m-%d %H:%M")
     rel_out = out_file.relative_to(REPO_ROOT).as_posix()
 
     record = {
@@ -238,6 +307,7 @@ def main() -> int:
         "prompt": prompt,
         "file": rel_out,
         "duration": None,
+        "display": display,
     }
 
     tracks = load_tracks()

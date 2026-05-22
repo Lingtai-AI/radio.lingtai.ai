@@ -3,42 +3,89 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lingtai Radio</title>
+    <title>Lingtai Radio — Study Music / 学习音乐</title>
     <meta
       name="description"
-      content="Lingtai Radio — hourly instrumental broadcasts from the Lingtai grotto."
+      content="Lingtai Radio — a semi-live study music stream from the Lingtai grotto. One looping piece, refreshed every hour."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <h1>Lingtai Radio</h1>
-      <p class="tagline">
-        Hourly instrumental broadcasts from the Lingtai grotto —
-        Bodhi, Guanyin, Monkey King, and the long road west.
+      <div class="brand">
+        <h1>Lingtai Radio</h1>
+        <div class="live-dot" id="live-dot" aria-hidden="true"></div>
+      </div>
+      <p class="tagline tagline-en">
+        Study music from the Lingtai grotto — one piece on loop, a new one every hour.
       </p>
+      <p class="tagline tagline-zh">学习音乐 · 灵台洞府每小时一曲，单曲循环。</p>
+      <p class="tagline tagline-wy">灵台一曲，循环不息；时至换新。</p>
     </header>
 
     <main>
-      <section class="player">
-        <div id="now-playing" class="now-playing">
-          <div class="np-title">Loading the latest broadcast…</div>
-          <div class="np-meta"></div>
+      <section class="player" aria-live="polite">
+        <div class="np-label">
+          <span>Now playing</span>
+          <span>当前曲子</span>
+          <span>方播之曲</span>
         </div>
-        <audio id="audio" controls preload="none"></audio>
+
+        <div id="now-playing" class="now-playing">
+          <div class="np-title" id="np-title-en">Tuning in…</div>
+          <div class="np-title np-title-zh" id="np-title-zh">正在接通…</div>
+          <div class="np-title np-title-wy" id="np-title-wy">方调清音……</div>
+
+          <div class="np-meta" id="np-meta"></div>
+
+          <div class="np-prompt" id="np-prompt-en"></div>
+          <div class="np-prompt np-prompt-zh" id="np-prompt-zh"></div>
+          <div class="np-prompt np-prompt-wy" id="np-prompt-wy"></div>
+        </div>
+
+        <audio id="audio" controls preload="auto" loop></audio>
+
+        <div class="status" id="status" role="status"></div>
       </section>
 
-      <section class="playlist">
-        <h2>Broadcasts</h2>
-        <ol id="tracks" class="tracks">
-          <li class="empty">No tracks yet. Check back at the top of the hour.</li>
+      <section class="recent">
+        <h2>
+          <span>Recent pieces</span>
+          <span class="zh">近期曲目</span>
+          <span class="wy">前奏数阕</span>
+        </h2>
+        <ol id="recent-list" class="recent-list">
+          <li class="empty">No recent pieces yet. / 暂无 / 阙如。</li>
         </ol>
+      </section>
+
+      <section class="tip">
+        <h2>
+          <span>Tip the broadcaster</span>
+          <span class="zh">微信支付打赏</span>
+          <span class="wy">投以微赀</span>
+        </h2>
+        <p class="tip-blurb">
+          If Lingtai Radio helps you study, you can leave a small WeChat tip.
+          <br />
+          <span class="zh">若此电台助君攻读，可微信小额随喜。</span>
+          <br />
+          <span class="wy">若此曲佐君笃学，敢请微赀以续香火。</span>
+        </p>
+        <figure class="tip-qr">
+          <img
+            src="assets/wechat-pay-tip.jpg"
+            alt="WeChat Pay QR code for Lingtai Radio tips"
+            loading="lazy"
+          />
+          <figcaption>WeChat Pay · 微信支付 · 扫码打赏</figcaption>
+        </figure>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>
-        <a href="https://lingtai.ai">lingtai.ai</a> · generated hourly ·
+        <a href="https://lingtai.ai">lingtai.ai</a> · a new piece every hour ·
         <a href="https://github.com/Lingtai-AI/radio.lingtai.ai">source</a>
       </p>
     </footer>

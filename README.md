@@ -1,23 +1,32 @@
 # Lingtai Radio
 
-Hourly instrumental broadcasts from the Lingtai grotto — Bodhi, Guanyin,
-Monkey King, and the long road west. Static GitHub Pages site served at
+Semi-live **study music** from the Lingtai grotto — one piece on loop,
+a new piece every hour. Bodhi, Guanyin, Monkey King, and the long road
+west. Static GitHub Pages site served at
 [radio.lingtai.ai](https://radio.lingtai.ai).
 
-A launchd job fires every hour at minute 0, invokes the MiniMax `mmx` CLI
-to generate one instrumental track, appends it to `data/tracks.json`,
-writes a Markdown note, and pushes a commit. GitHub Pages serves the
-resulting static site.
+The page shows one current piece (当前曲子 · 方播之曲) prominently in
+English / 中文 / 文言, loops it as study music, and polls
+`data/tracks.json` about once a minute so listeners are switched onto
+the next hourly piece without reloading. A small "Recent pieces" list
+sits below the player; tipping is via WeChat Pay QR (`微信支付打赏`).
+
+A launchd job fires every hour at minute 0, invokes the MiniMax `mmx`
+CLI to generate one instrumental track, appends it to
+`data/tracks.json` (with trilingual `display` metadata), writes a
+Markdown note, and pushes a commit. GitHub Pages serves the resulting
+static site — no build step.
 
 ## Layout
 
 ```
 CNAME                          radio.lingtai.ai
 index.html  styles.css  radio.js
-data/tracks.json               playlist consumed by radio.js
+data/tracks.json               current + recent pieces consumed by radio.js
 assets/tracks/<slug>.mp3       generated audio
-notes/<slug>.md                per-broadcast prompt + command
-scripts/generate_track.py      one-shot generator
+assets/wechat-pay-tip.jpg      WeChat Pay tip QR (微信支付打赏)
+notes/<slug>.md                per-piece prompt + command
+scripts/generate_track.py      one-shot generator (writes trilingual display)
 scripts/run_hourly.sh          launchd entry point
 deploy/com.lingtai.radio-hourly.plist.example
 logs/hourly.log                appended each run
