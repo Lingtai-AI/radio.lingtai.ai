@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260527-090006",
+    "title": "Lingtai Study Music — 2026-05-27 09:00",
+    "created_at": "2026-05-27T16:00:06+00:00",
+    "prompt": "midmorning sun on yellow earth, warm strings; the patriarch's brushwork on rice paper, slow and certain; with a hint of moonlight pooling on the Lingtai grotto's stone steps; instrumental, cinematic, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260527-090006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midmorning on yellow earth",
+        "zh": "灵台学习音乐 · 黄土晌前",
+        "wy": "灵台诵读之曲 · 黄壤晨光"
+      },
+      "prompt": {
+        "en": "Midmorning on yellow earth; a hint of the Bodhi patriarch, with Lingtai grotto in the distance.",
+        "zh": "黄土晌前；近现菩提祖师意，远透灵台洞府韵。",
+        "wy": "黄壤晨光；近寓菩提老祖之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260527-080005",
     "title": "Lingtai Study Music — 2026-05-27 08:00",
     "created_at": "2026-05-27T15:00:05+00:00",
