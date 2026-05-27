@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260527-130005",
+    "title": "Lingtai Study Music — 2026-05-27 13:00",
+    "created_at": "2026-05-27T20:00:05+00:00",
+    "prompt": "afternoon clouds gathering, layered xiao and koto; Subhuti the Bodhi patriarch tracing a single character in sand; with a hint of Guanyin's compassion carried on a soft sea wind; guzheng, pipa, erhu, bamboo flute, soft pads, cinematic, instrumental, east asian classical fusion.",
+    "file": "assets/tracks/20260527-130005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Afternoon clouds gathering",
+        "zh": "灵台学习音乐 · 午后云聚",
+        "wy": "灵台诵读之曲 · 午后云生"
+      },
+      "prompt": {
+        "en": "Afternoon clouds gathering; a hint of the Bodhi patriarch, with Guanyin in the distance.",
+        "zh": "午后云聚；近现菩提祖师意，远透观音韵。",
+        "wy": "午后云生；近寓菩提老祖之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260527-120000",
     "title": "Lingtai Study Music — 2026-05-27 12:00",
     "created_at": "2026-05-27T19:00:00+00:00",
