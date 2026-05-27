@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260526-170006",
+    "title": "Lingtai Study Music — 2026-05-26 17:00",
+    "created_at": "2026-05-27T00:00:06+00:00",
+    "prompt": "evening bell across the valley, reverberant; the patriarch's brushwork on rice paper, slow and certain; with a hint of Sun Wukong leaping between cloud and mountain, somersault clouds trailing; contemplative, east asian classical fusion, cinematic, instrumental.",
+    "file": "assets/tracks/20260526-170006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Evening bell across the valley",
+        "zh": "灵台学习音乐 · 暮钟过谷",
+        "wy": "灵台诵读之曲 · 暮钟度壑"
+      },
+      "prompt": {
+        "en": "Evening bell across the valley; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "暮钟过谷；近现菩提祖师意，远透美猴王韵。",
+        "wy": "暮钟度壑；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260526-160005",
     "title": "Lingtai Study Music — 2026-05-26 16:00",
     "created_at": "2026-05-26T23:00:05+00:00",
