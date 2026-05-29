@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260529-110003",
+    "title": "Lingtai Study Music — 2026-05-29 11:00",
+    "created_at": "2026-05-29T18:00:03+00:00",
+    "prompt": "noon meditation, suspended chords, almost still; the iron staff humming, ready, but lowered; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads, contemplative, instrumental.",
+    "file": "assets/tracks/20260529-110003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Noon meditation",
+        "zh": "灵台学习音乐 · 午中入定",
+        "wy": "灵台诵读之曲 · 正午宴坐"
+      },
+      "prompt": {
+        "en": "Noon meditation; a hint of the Monkey King, with the Bodhi patriarch in the distance.",
+        "zh": "午中入定；近现美猴王意，远透菩提祖师韵。",
+        "wy": "正午宴坐；近寓齐天大圣之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260529-100005",
     "title": "Lingtai Study Music — 2026-05-29 10:00",
     "created_at": "2026-05-29T17:00:05+00:00",
