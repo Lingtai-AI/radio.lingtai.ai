@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260528-180005",
+    "title": "Lingtai Study Music — 2026-05-28 18:00",
+    "created_at": "2026-05-29T01:00:05+00:00",
+    "prompt": "lanterns lit one by one, gentle plucked strings; Guanyin's compassion carried on a soft sea wind; with a hint of wind in the pines above the Lingtai grotto; instrumental, no vocals, east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260528-180005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Lanterns lit one by one",
+        "zh": "灵台学习音乐 · 灯火渐燃",
+        "wy": "灵台诵读之曲 · 次第燃灯"
+      },
+      "prompt": {
+        "en": "Lanterns lit one by one; a hint of Guanyin, with Lingtai grotto in the distance.",
+        "zh": "灯火渐燃；近现观音意，远透灵台洞府韵。",
+        "wy": "次第燃灯；近寓观自在之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260528-170002",
     "title": "Lingtai Study Music — 2026-05-28 17:00",
     "created_at": "2026-05-29T00:00:02+00:00",
