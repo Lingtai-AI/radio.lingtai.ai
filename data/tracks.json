@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260529-020005",
+    "title": "Lingtai Study Music — 2026-05-29 02:00",
+    "created_at": "2026-05-29T09:00:05+00:00",
+    "prompt": "ink wash before dawn, low strings; Guanyin's compassion carried on a soft sea wind; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, no vocals, cinematic.",
+    "file": "assets/tracks/20260529-020005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Ink wash before dawn",
+        "zh": "灵台学习音乐 · 墨色未明",
+        "wy": "灵台诵读之曲 · 未旦如墨"
+      },
+      "prompt": {
+        "en": "Ink wash before dawn; a hint of Guanyin, with the Bodhi patriarch in the distance.",
+        "zh": "墨色未明；近现观音意，远透菩提祖师韵。",
+        "wy": "未旦如墨；近寓观自在之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260529-010005",
     "title": "Lingtai Study Music — 2026-05-29 01:00",
     "created_at": "2026-05-29T08:00:05+00:00",
