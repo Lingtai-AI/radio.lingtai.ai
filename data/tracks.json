@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260529-220002",
+    "title": "Lingtai Study Music — 2026-05-29 22:00",
+    "created_at": "2026-05-30T05:00:02+00:00",
+    "prompt": "late night writing by oil lamp, ink and paper; the bottle of pure water tilting, a single drop falling; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion, instrumental.",
+    "file": "assets/tracks/20260529-220002.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Lamp-lit writing",
+        "zh": "灵台学习音乐 · 灯下抄书",
+        "wy": "灵台诵读之曲 · 孤灯弄翰"
+      },
+      "prompt": {
+        "en": "Lamp-lit writing; a hint of Guanyin, with the Bodhi patriarch in the distance.",
+        "zh": "灯下抄书；近现观音意，远透菩提祖师韵。",
+        "wy": "孤灯弄翰；近寓观自在之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260529-210006",
     "title": "Lingtai Study Music — 2026-05-29 21:00",
     "created_at": "2026-05-30T04:00:06+00:00",
