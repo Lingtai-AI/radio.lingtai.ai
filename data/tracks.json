@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260530-200003",
+    "title": "Lingtai Study Music — 2026-05-30 20:00",
+    "created_at": "2026-05-31T03:00:03+00:00",
+    "prompt": "stars over the grotto, sparse celesta-like textures; incense smoke drifting through the Lingtai cave at dawn; with a hint of the Monkey King studying his own shadow at the edge of a cliff; instrumental, guzheng, pipa, erhu, bamboo flute, soft pads, no vocals, cinematic.",
+    "file": "assets/tracks/20260530-200003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Stars over the grotto",
+        "zh": "灵台学习音乐 · 洞府繁星",
+        "wy": "灵台诵读之曲 · 洞天星河"
+      },
+      "prompt": {
+        "en": "Stars over the grotto; a hint of Lingtai grotto, with the Monkey King in the distance.",
+        "zh": "洞府繁星；近现灵台洞府意，远透美猴王韵。",
+        "wy": "洞天星河；近寓灵台洞天之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260530-190006",
     "title": "Lingtai Study Music — 2026-05-30 19:00",
     "created_at": "2026-05-31T02:00:06+00:00",
