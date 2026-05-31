@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260531-060006",
+    "title": "Lingtai Study Music — 2026-05-31 06:00",
+    "created_at": "2026-05-31T13:00:06+00:00",
+    "prompt": "sunrise over the western road, hopeful guzheng; Guanyin standing on a lotus, looking down at a far shore; with a hint of the patriarch's brushwork on rice paper, slow and certain; guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion, contemplative, instrumental.",
+    "file": "assets/tracks/20260531-060006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sunrise over the western road",
+        "zh": "灵台学习音乐 · 西路日升",
+        "wy": "灵台诵读之曲 · 西路日出"
+      },
+      "prompt": {
+        "en": "Sunrise over the western road; a hint of Guanyin, with the Bodhi patriarch in the distance.",
+        "zh": "西路日升；近现观音意，远透菩提祖师韵。",
+        "wy": "西路日出；近寓观自在之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260531-050007",
     "title": "Lingtai Study Music — 2026-05-31 05:00",
     "created_at": "2026-05-31T12:00:07+00:00",
