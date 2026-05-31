@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260531-150005",
+    "title": "Lingtai Study Music — 2026-05-31 15:00",
+    "created_at": "2026-05-31T22:00:05+00:00",
+    "prompt": "tea ceremony at the hour of the monkey, playful pipa; the Monkey King studying his own shadow at the edge of a cliff; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; east asian classical fusion, no vocals, instrumental, contemplative.",
+    "file": "assets/tracks/20260531-150005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Tea at the hour of the monkey",
+        "zh": "灵台学习音乐 · 申时点茶",
+        "wy": "灵台诵读之曲 · 申时奉茶"
+      },
+      "prompt": {
+        "en": "Tea at the hour of the monkey; a hint of the Monkey King, with the Bodhi patriarch in the distance.",
+        "zh": "申时点茶；近现美猴王意，远透菩提祖师韵。",
+        "wy": "申时奉茶；近寓齐天大圣之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260531-140006",
     "title": "Lingtai Study Music — 2026-05-31 14:00",
     "created_at": "2026-05-31T21:00:06+00:00",
