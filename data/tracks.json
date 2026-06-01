@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260601-030005",
+    "title": "Lingtai Study Music — 2026-06-01 03:00",
+    "created_at": "2026-06-01T10:00:05+00:00",
+    "prompt": "the hour of the tiger, monastery courtyard waking; the iron staff humming, ready, but lowered; with a hint of a quiet sermon under the bodhi tree, the leaves listening; instrumental, east asian classical fusion, no vocals, cinematic.",
+    "file": "assets/tracks/20260601-030005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Monastery courtyard waking",
+        "zh": "灵台学习音乐 · 寅时初醒",
+        "wy": "灵台诵读之曲 · 山门初启"
+      },
+      "prompt": {
+        "en": "Monastery courtyard waking; a hint of the Monkey King, with the Bodhi patriarch in the distance.",
+        "zh": "寅时初醒；近现美猴王意，远透菩提祖师韵。",
+        "wy": "山门初启；近寓齐天大圣之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260601-020004",
     "title": "Lingtai Study Music — 2026-06-01 02:00",
     "created_at": "2026-06-01T09:00:04+00:00",
