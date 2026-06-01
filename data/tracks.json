@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260601-100004",
+    "title": "Lingtai Study Music — 2026-06-01 10:00",
+    "created_at": "2026-06-01T17:00:04+00:00",
+    "prompt": "wind crossing the desert, sparse erhu; Guanyin's compassion carried on a soft sea wind; with a hint of a quiet sermon under the bodhi tree, the leaves listening; east asian classical fusion, contemplative, no vocals, cinematic.",
+    "file": "assets/tracks/20260601-100004.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Wind across the desert",
+        "zh": "灵台学习音乐 · 大漠风行",
+        "wy": "灵台诵读之曲 · 塞外风行"
+      },
+      "prompt": {
+        "en": "Wind across the desert; a hint of Guanyin, with the Bodhi patriarch in the distance.",
+        "zh": "大漠风行；近现观音意，远透菩提祖师韵。",
+        "wy": "塞外风行；近寓观自在之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260601-090005",
     "title": "Lingtai Study Music — 2026-06-01 09:00",
     "created_at": "2026-06-01T16:00:05+00:00",
