@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260602-090005",
+    "title": "Lingtai Study Music — 2026-06-02 09:00",
+    "created_at": "2026-06-02T16:00:05+00:00",
+    "prompt": "midmorning sun on yellow earth, warm strings; the patriarch's brushwork on rice paper, slow and certain; with a hint of Guanyin standing on a lotus, looking down at a far shore; no vocals, instrumental, east asian classical fusion, contemplative.",
+    "file": "assets/tracks/20260602-090005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midmorning on yellow earth",
+        "zh": "灵台学习音乐 · 黄土晌前",
+        "wy": "灵台诵读之曲 · 黄壤晨光"
+      },
+      "prompt": {
+        "en": "Midmorning on yellow earth; a hint of the Bodhi patriarch, with Guanyin in the distance.",
+        "zh": "黄土晌前；近现菩提祖师意，远透观音韵。",
+        "wy": "黄壤晨光；近寓菩提老祖之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260602-080003",
     "title": "Lingtai Study Music — 2026-06-02 08:00",
     "created_at": "2026-06-02T15:00:03+00:00",
