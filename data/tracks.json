@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260602-050005",
+    "title": "Lingtai Study Music — 2026-06-02 05:00",
+    "created_at": "2026-06-02T12:00:05+00:00",
+    "prompt": "morning bell, slow temple chant texture (instrumental); the patriarch's brushwork on rice paper, slow and certain; with a hint of the bottle of pure water tilting, a single drop falling; no vocals, east asian classical fusion, instrumental, cinematic.",
+    "file": "assets/tracks/20260602-050005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Morning bell",
+        "zh": "灵台学习音乐 · 晨钟",
+        "wy": "灵台诵读之曲 · 晨钟一杵"
+      },
+      "prompt": {
+        "en": "Morning bell; a hint of the Bodhi patriarch, with Guanyin in the distance.",
+        "zh": "晨钟；近现菩提祖师意，远透观音韵。",
+        "wy": "晨钟一杵；近寓菩提老祖之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260602-040005",
     "title": "Lingtai Study Music — 2026-06-02 04:00",
     "created_at": "2026-06-02T11:00:05+00:00",
