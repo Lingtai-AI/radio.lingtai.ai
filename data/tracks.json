@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260602-230006",
+    "title": "Lingtai Study Music — 2026-06-02 23:00",
+    "created_at": "2026-06-03T06:00:06+00:00",
+    "prompt": "approaching midnight, returning to stillness; the iron staff humming, ready, but lowered; with a hint of a quiet sermon under the bodhi tree, the leaves listening; contemplative, instrumental, guzheng, pipa, erhu, bamboo flute, soft pads, cinematic.",
+    "file": "assets/tracks/20260602-230006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Returning to stillness",
+        "zh": "灵台学习音乐 · 复归于寂",
+        "wy": "灵台诵读之曲 · 复归于寂"
+      },
+      "prompt": {
+        "en": "Returning to stillness; a hint of the Monkey King, with the Bodhi patriarch in the distance.",
+        "zh": "复归于寂；近现美猴王意，远透菩提祖师韵。",
+        "wy": "复归于寂；近寓齐天大圣之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260602-220001",
     "title": "Lingtai Study Music — 2026-06-02 22:00",
     "created_at": "2026-06-03T05:00:01+00:00",
