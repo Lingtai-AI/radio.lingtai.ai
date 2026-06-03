@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260602-190005",
+    "title": "Lingtai Study Music — 2026-06-02 19:00",
+    "created_at": "2026-06-03T02:00:05+00:00",
+    "prompt": "night meditation, deep drone, slow breath; the iron staff humming, ready, but lowered; with a hint of Guanyin's willow branch sprinkling sweet dew over the southern sea; cinematic, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental.",
+    "file": "assets/tracks/20260602-190005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Night meditation",
+        "zh": "灵台学习音乐 · 夜坐",
+        "wy": "灵台诵读之曲 · 夜坐参禅"
+      },
+      "prompt": {
+        "en": "Night meditation; a hint of the Monkey King, with Guanyin in the distance.",
+        "zh": "夜坐；近现美猴王意，远透观音韵。",
+        "wy": "夜坐参禅；近寓齐天大圣之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260602-180006",
     "title": "Lingtai Study Music — 2026-06-02 18:00",
     "created_at": "2026-06-03T01:00:06+00:00",
