@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260605-120005",
+    "title": "Lingtai Study Music — 2026-06-05 12:00",
+    "created_at": "2026-06-05T19:00:05+00:00",
+    "prompt": "midday heat shimmer, soft drone and bamboo flute; the patriarch's bell ringing once across the Lingtai valley; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; cinematic, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, no vocals.",
+    "file": "assets/tracks/20260605-120005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midday heat shimmer",
+        "zh": "灵台学习音乐 · 正午光摇",
+        "wy": "灵台诵读之曲 · 日中光颤"
+      },
+      "prompt": {
+        "en": "Midday heat shimmer; a hint of Lingtai grotto, with the Bodhi patriarch in the distance.",
+        "zh": "正午光摇；近现灵台洞府意，远透菩提祖师韵。",
+        "wy": "日中光颤；近寓灵台洞天之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260605-110004",
     "title": "Lingtai Study Music — 2026-06-05 11:00",
     "created_at": "2026-06-05T18:00:04+00:00",
