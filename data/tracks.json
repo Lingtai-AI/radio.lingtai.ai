@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260606-130006",
+    "title": "Lingtai Study Music — 2026-06-06 13:00",
+    "created_at": "2026-06-06T20:00:06+00:00",
+    "prompt": "afternoon clouds gathering, layered xiao and koto; moonlit meditation in the cave of slanted moon and three stars; with a hint of incense smoke drifting through the Lingtai cave at dawn; contemplative, no vocals, instrumental, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260606-130006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Afternoon clouds gathering",
+        "zh": "灵台学习音乐 · 午后云聚",
+        "wy": "灵台诵读之曲 · 午后云生"
+      },
+      "prompt": {
+        "en": "Afternoon clouds gathering; a hint of the Bodhi patriarch, with Lingtai grotto in the distance.",
+        "zh": "午后云聚；近现菩提祖师意，远透灵台洞府韵。",
+        "wy": "午后云生；近寓菩提老祖之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260606-120006",
     "title": "Lingtai Study Music — 2026-06-06 12:00",
     "created_at": "2026-06-06T19:00:06+00:00",
