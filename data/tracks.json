@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260606-100005",
+    "title": "Lingtai Study Music — 2026-06-06 10:00",
+    "created_at": "2026-06-06T17:00:05+00:00",
+    "prompt": "wind crossing the desert, sparse erhu; Guanyin's willow branch sprinkling sweet dew over the southern sea; with a hint of the iron staff humming, ready, but lowered; cinematic, contemplative, east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260606-100005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Wind across the desert",
+        "zh": "灵台学习音乐 · 大漠风行",
+        "wy": "灵台诵读之曲 · 塞外风行"
+      },
+      "prompt": {
+        "en": "Wind across the desert; a hint of Guanyin, with the Monkey King in the distance.",
+        "zh": "大漠风行；近现观音意，远透美猴王韵。",
+        "wy": "塞外风行；近寓观自在之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260606-090005",
     "title": "Lingtai Study Music — 2026-06-06 09:00",
     "created_at": "2026-06-06T16:00:05+00:00",
