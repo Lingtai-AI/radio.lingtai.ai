@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260611-000001",
+    "title": "Lingtai Study Music — 2026-06-11 00:00",
+    "created_at": "2026-06-11T07:00:01+00:00",
+    "prompt": "midnight stillness, deep gongs, distant water dripping; wind in the pines above the Lingtai grotto; with a hint of Guanyin's compassion carried on a soft sea wind; contemplative, instrumental, east asian classical fusion, cinematic.",
+    "file": "assets/tracks/20260611-000001.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midnight stillness",
+        "zh": "灵台学习音乐 · 子夜寂",
+        "wy": "灵台诵读之曲 · 夜阑寂寂"
+      },
+      "prompt": {
+        "en": "Midnight stillness; a hint of Lingtai grotto, with Guanyin in the distance.",
+        "zh": "子夜寂；近现灵台洞府意，远透观音韵。",
+        "wy": "夜阑寂寂；近寓灵台洞天之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260610-230005",
     "title": "Lingtai Study Music — 2026-06-10 23:00",
     "created_at": "2026-06-11T06:00:05+00:00",
