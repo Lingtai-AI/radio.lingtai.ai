@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260612-060006",
+    "title": "Lingtai Study Music — 2026-06-12 06:00",
+    "created_at": "2026-06-12T13:00:06+00:00",
+    "prompt": "sunrise over the western road, hopeful guzheng; Guanyin's compassion carried on a soft sea wind; with a hint of Sun Wukong leaping between cloud and mountain, somersault clouds trailing; no vocals, cinematic, instrumental, contemplative.",
+    "file": "assets/tracks/20260612-060006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sunrise over the western road",
+        "zh": "灵台学习音乐 · 西路日升",
+        "wy": "灵台诵读之曲 · 西路日出"
+      },
+      "prompt": {
+        "en": "Sunrise over the western road; a hint of Guanyin, with the Monkey King in the distance.",
+        "zh": "西路日升；近现观音意，远透美猴王韵。",
+        "wy": "西路日出；近寓观自在之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260612-050005",
     "title": "Lingtai Study Music — 2026-06-12 05:00",
     "created_at": "2026-06-12T12:00:05+00:00",
