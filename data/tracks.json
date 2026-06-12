@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260611-210006",
+    "title": "Lingtai Study Music — 2026-06-11 21:00",
+    "created_at": "2026-06-12T04:00:06+00:00",
+    "prompt": "the hour of the dog, distant temple chime; the patriarch's brushwork on rice paper, slow and certain; with a hint of Guanyin standing on a lotus, looking down at a far shore; no vocals, east asian classical fusion, contemplative, cinematic.",
+    "file": "assets/tracks/20260611-210006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — The hour of the dog",
+        "zh": "灵台学习音乐 · 戌时远钟",
+        "wy": "灵台诵读之曲 · 戌时遥钟"
+      },
+      "prompt": {
+        "en": "The hour of the dog; a hint of the Bodhi patriarch, with Guanyin in the distance.",
+        "zh": "戌时远钟；近现菩提祖师意，远透观音韵。",
+        "wy": "戌时遥钟；近寓菩提老祖之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260611-200004",
     "title": "Lingtai Study Music — 2026-06-11 20:00",
     "created_at": "2026-06-12T03:00:04+00:00",
