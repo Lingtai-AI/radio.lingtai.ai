@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260615-020006",
+    "title": "Lingtai Study Music — 2026-06-15 02:00",
+    "created_at": "2026-06-15T09:00:06+00:00",
+    "prompt": "ink wash before dawn, low strings; Guanyin's compassion carried on a soft sea wind; with a hint of moonlit meditation in the cave of slanted moon and three stars; east asian classical fusion, instrumental, guzheng, pipa, erhu, bamboo flute, soft pads, contemplative.",
+    "file": "assets/tracks/20260615-020006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Ink wash before dawn",
+        "zh": "灵台学习音乐 · 墨色未明",
+        "wy": "灵台诵读之曲 · 未旦如墨"
+      },
+      "prompt": {
+        "en": "Ink wash before dawn; a hint of Guanyin, with the Bodhi patriarch in the distance.",
+        "zh": "墨色未明；近现观音意，远透菩提祖师韵。",
+        "wy": "未旦如墨；近寓观自在之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260615-010006",
     "title": "Lingtai Study Music — 2026-06-15 01:00",
     "created_at": "2026-06-15T08:00:06+00:00",
