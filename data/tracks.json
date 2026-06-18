@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260618-040005",
+    "title": "Lingtai Study Music — 2026-06-18 04:00",
+    "created_at": "2026-06-18T11:00:05+00:00",
+    "prompt": "first light over pine ridges, hesitant flute; incense smoke drifting through the Lingtai cave at dawn; with a hint of Guanyin standing on a lotus, looking down at a far shore; guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion, no vocals, cinematic.",
+    "file": "assets/tracks/20260618-040005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — First light on pine ridges",
+        "zh": "灵台学习音乐 · 松岭初晖",
+        "wy": "灵台诵读之曲 · 松岭微明"
+      },
+      "prompt": {
+        "en": "First light on pine ridges; a hint of Lingtai grotto, with Guanyin in the distance.",
+        "zh": "松岭初晖；近现灵台洞府意，远透观音韵。",
+        "wy": "松岭微明；近寓灵台洞天之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260618-030003",
     "title": "Lingtai Study Music — 2026-06-18 03:00",
     "created_at": "2026-06-18T10:00:03+00:00",
