@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260618-020006",
+    "title": "Lingtai Study Music — 2026-06-18 02:00",
+    "created_at": "2026-06-18T09:00:06+00:00",
+    "prompt": "ink wash before dawn, low strings; the bottle of pure water tilting, a single drop falling; with a hint of incense smoke drifting through the Lingtai cave at dawn; guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, no vocals, contemplative.",
+    "file": "assets/tracks/20260618-020006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Ink wash before dawn",
+        "zh": "灵台学习音乐 · 墨色未明",
+        "wy": "灵台诵读之曲 · 未旦如墨"
+      },
+      "prompt": {
+        "en": "Ink wash before dawn; a hint of Guanyin, with Lingtai grotto in the distance.",
+        "zh": "墨色未明；近现观音意，远透灵台洞府韵。",
+        "wy": "未旦如墨；近寓观自在之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260618-010003",
     "title": "Lingtai Study Music — 2026-06-18 01:00",
     "created_at": "2026-06-18T08:00:03+00:00",
