@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260617-210006",
+    "title": "Lingtai Study Music — 2026-06-17 21:00",
+    "created_at": "2026-06-18T04:00:06+00:00",
+    "prompt": "the hour of the dog, distant temple chime; a quiet sermon under the bodhi tree, the leaves listening; with a hint of the Monkey King studying his own shadow at the edge of a cliff; guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, cinematic, no vocals.",
+    "file": "assets/tracks/20260617-210006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — The hour of the dog",
+        "zh": "灵台学习音乐 · 戌时远钟",
+        "wy": "灵台诵读之曲 · 戌时遥钟"
+      },
+      "prompt": {
+        "en": "The hour of the dog; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "戌时远钟；近现菩提祖师意，远透美猴王韵。",
+        "wy": "戌时遥钟；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260617-200004",
     "title": "Lingtai Study Music — 2026-06-17 20:00",
     "created_at": "2026-06-18T03:00:04+00:00",
