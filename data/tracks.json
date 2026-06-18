@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260618-030003",
+    "title": "Lingtai Study Music — 2026-06-18 03:00",
+    "created_at": "2026-06-18T10:00:03+00:00",
+    "prompt": "the hour of the tiger, monastery courtyard waking; Sun Wukong leaping between cloud and mountain, somersault clouds trailing; with a hint of incense smoke drifting through the Lingtai cave at dawn; east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, cinematic.",
+    "file": "assets/tracks/20260618-030003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Monastery courtyard waking",
+        "zh": "灵台学习音乐 · 寅时初醒",
+        "wy": "灵台诵读之曲 · 山门初启"
+      },
+      "prompt": {
+        "en": "Monastery courtyard waking; a hint of the Monkey King, with Lingtai grotto in the distance.",
+        "zh": "寅时初醒；近现美猴王意，远透灵台洞府韵。",
+        "wy": "山门初启；近寓齐天大圣之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260618-020006",
     "title": "Lingtai Study Music — 2026-06-18 02:00",
     "created_at": "2026-06-18T09:00:06+00:00",
