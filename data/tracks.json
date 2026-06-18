@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260618-010003",
+    "title": "Lingtai Study Music — 2026-06-18 01:00",
+    "created_at": "2026-06-18T08:00:03+00:00",
+    "prompt": "the hour of the rat, sparse koto and breath; Subhuti the Bodhi patriarch tracing a single character in sand; with a hint of the Monkey King studying his own shadow at the edge of a cliff; no vocals, cinematic, east asian classical fusion, contemplative.",
+    "file": "assets/tracks/20260618-010003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — The hour of the rat",
+        "zh": "灵台学习音乐 · 鼠时清",
+        "wy": "灵台诵读之曲 · 鼠时初静"
+      },
+      "prompt": {
+        "en": "The hour of the rat; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "鼠时清；近现菩提祖师意，远透美猴王韵。",
+        "wy": "鼠时初静；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260618-000006",
     "title": "Lingtai Study Music — 2026-06-18 00:00",
     "created_at": "2026-06-18T07:00:06+00:00",
