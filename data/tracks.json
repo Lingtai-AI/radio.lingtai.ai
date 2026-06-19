@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260619-160006",
+    "title": "Lingtai Study Music — 2026-06-19 16:00",
+    "created_at": "2026-06-19T23:00:06+00:00",
+    "prompt": "sun low over distant peaks, golden brass-like swells; wind in the pines above the Lingtai grotto; with a hint of Guanyin's compassion carried on a soft sea wind; contemplative, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, cinematic.",
+    "file": "assets/tracks/20260619-160006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sun low over distant peaks",
+        "zh": "灵台学习音乐 · 远峰夕照",
+        "wy": "灵台诵读之曲 · 远岫夕晖"
+      },
+      "prompt": {
+        "en": "Sun low over distant peaks; a hint of Lingtai grotto, with Guanyin in the distance.",
+        "zh": "远峰夕照；近现灵台洞府意，远透观音韵。",
+        "wy": "远岫夕晖；近寓灵台洞天之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260619-150006",
     "title": "Lingtai Study Music — 2026-06-19 15:00",
     "created_at": "2026-06-19T22:00:06+00:00",
