@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260620-150003",
+    "title": "Lingtai Study Music — 2026-06-20 15:00",
+    "created_at": "2026-06-20T22:00:03+00:00",
+    "prompt": "tea ceremony at the hour of the monkey, playful pipa; the Monkey King studying his own shadow at the edge of a cliff; with a hint of moonlight pooling on the Lingtai grotto's stone steps; east asian classical fusion, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, contemplative.",
+    "file": "assets/tracks/20260620-150003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Tea at the hour of the monkey",
+        "zh": "灵台学习音乐 · 申时点茶",
+        "wy": "灵台诵读之曲 · 申时奉茶"
+      },
+      "prompt": {
+        "en": "Tea at the hour of the monkey; a hint of the Monkey King, with Lingtai grotto in the distance.",
+        "zh": "申时点茶；近现美猴王意，远透灵台洞府韵。",
+        "wy": "申时奉茶；近寓齐天大圣之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260620-140006",
     "title": "Lingtai Study Music — 2026-06-20 14:00",
     "created_at": "2026-06-20T21:00:06+00:00",
