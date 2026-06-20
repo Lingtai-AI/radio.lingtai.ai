@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260620-090002",
+    "title": "Lingtai Study Music — 2026-06-20 09:00",
+    "created_at": "2026-06-20T16:00:02+00:00",
+    "prompt": "midmorning sun on yellow earth, warm strings; a quiet sermon under the bodhi tree, the leaves listening; with a hint of the Monkey King studying his own shadow at the edge of a cliff; guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion, contemplative, cinematic.",
+    "file": "assets/tracks/20260620-090002.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midmorning on yellow earth",
+        "zh": "灵台学习音乐 · 黄土晌前",
+        "wy": "灵台诵读之曲 · 黄壤晨光"
+      },
+      "prompt": {
+        "en": "Midmorning on yellow earth; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "黄土晌前；近现菩提祖师意，远透美猴王韵。",
+        "wy": "黄壤晨光；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260620-080003",
     "title": "Lingtai Study Music — 2026-06-20 08:00",
     "created_at": "2026-06-20T15:00:03+00:00",
