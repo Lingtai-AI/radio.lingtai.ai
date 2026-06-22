@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260622-050004",
+    "title": "Lingtai Study Music — 2026-06-22 05:00",
+    "created_at": "2026-06-22T12:00:04+00:00",
+    "prompt": "morning bell, slow temple chant texture (instrumental); moonlit meditation in the cave of slanted moon and three stars; with a hint of moonlight pooling on the Lingtai grotto's stone steps; no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, contemplative, instrumental.",
+    "file": "assets/tracks/20260622-050004.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Morning bell",
+        "zh": "灵台学习音乐 · 晨钟",
+        "wy": "灵台诵读之曲 · 晨钟一杵"
+      },
+      "prompt": {
+        "en": "Morning bell; a hint of the Bodhi patriarch, with Lingtai grotto in the distance.",
+        "zh": "晨钟；近现菩提祖师意，远透灵台洞府韵。",
+        "wy": "晨钟一杵；近寓菩提老祖之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260622-040006",
     "title": "Lingtai Study Music — 2026-06-22 04:00",
     "created_at": "2026-06-22T11:00:06+00:00",
