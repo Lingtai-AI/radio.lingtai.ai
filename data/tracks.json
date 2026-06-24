@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260624-090006",
+    "title": "Lingtai Study Music — 2026-06-24 09:00",
+    "created_at": "2026-06-24T16:00:06+00:00",
+    "prompt": "midmorning sun on yellow earth, warm strings; moonlit meditation in the cave of slanted moon and three stars; with a hint of the Monkey King at rest on Flower-Fruit Mountain, ten thousand monkeys quiet; instrumental, contemplative, cinematic, no vocals.",
+    "file": "assets/tracks/20260624-090006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midmorning on yellow earth",
+        "zh": "灵台学习音乐 · 黄土晌前",
+        "wy": "灵台诵读之曲 · 黄壤晨光"
+      },
+      "prompt": {
+        "en": "Midmorning on yellow earth; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "黄土晌前；近现菩提祖师意，远透美猴王韵。",
+        "wy": "黄壤晨光；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260624-080005",
     "title": "Lingtai Study Music — 2026-06-24 08:00",
     "created_at": "2026-06-24T15:00:05+00:00",
