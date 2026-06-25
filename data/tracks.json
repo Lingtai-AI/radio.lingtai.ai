@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260625-130005",
+    "title": "Lingtai Study Music — 2026-06-25 13:00",
+    "created_at": "2026-06-25T20:00:05+00:00",
+    "prompt": "afternoon clouds gathering, layered xiao and koto; the patriarch's brushwork on rice paper, slow and certain; with a hint of the iron staff humming, ready, but lowered; contemplative, cinematic, east asian classical fusion, no vocals.",
+    "file": "assets/tracks/20260625-130005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Afternoon clouds gathering",
+        "zh": "灵台学习音乐 · 午后云聚",
+        "wy": "灵台诵读之曲 · 午后云生"
+      },
+      "prompt": {
+        "en": "Afternoon clouds gathering; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "午后云聚；近现菩提祖师意，远透美猴王韵。",
+        "wy": "午后云生；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260625-120005",
     "title": "Lingtai Study Music — 2026-06-25 12:00",
     "created_at": "2026-06-25T19:00:05+00:00",
