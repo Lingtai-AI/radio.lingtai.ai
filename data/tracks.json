@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260624-230007",
+    "title": "Lingtai Study Music — 2026-06-24 23:00",
+    "created_at": "2026-06-25T06:00:07+00:00",
+    "prompt": "approaching midnight, returning to stillness; the iron staff humming, ready, but lowered; with a hint of moonlight pooling on the Lingtai grotto's stone steps; cinematic, instrumental, contemplative, no vocals.",
+    "file": "assets/tracks/20260624-230007.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Returning to stillness",
+        "zh": "灵台学习音乐 · 复归于寂",
+        "wy": "灵台诵读之曲 · 复归于寂"
+      },
+      "prompt": {
+        "en": "Returning to stillness; a hint of the Monkey King, with Lingtai grotto in the distance.",
+        "zh": "复归于寂；近现美猴王意，远透灵台洞府韵。",
+        "wy": "复归于寂；近寓齐天大圣之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260624-220005",
     "title": "Lingtai Study Music — 2026-06-24 22:00",
     "created_at": "2026-06-25T05:00:05+00:00",
