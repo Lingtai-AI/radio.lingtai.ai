@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260625-110003",
+    "title": "Lingtai Study Music — 2026-06-25 11:00",
+    "created_at": "2026-06-25T18:00:03+00:00",
+    "prompt": "noon meditation, suspended chords, almost still; Sun Wukong leaping between cloud and mountain, somersault clouds trailing; with a hint of incense smoke drifting through the Lingtai cave at dawn; cinematic, contemplative, east asian classical fusion, no vocals.",
+    "file": "assets/tracks/20260625-110003.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Noon meditation",
+        "zh": "灵台学习音乐 · 午中入定",
+        "wy": "灵台诵读之曲 · 正午宴坐"
+      },
+      "prompt": {
+        "en": "Noon meditation; a hint of the Monkey King, with Lingtai grotto in the distance.",
+        "zh": "午中入定；近现美猴王意，远透灵台洞府韵。",
+        "wy": "正午宴坐；近寓齐天大圣之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260625-100005",
     "title": "Lingtai Study Music — 2026-06-25 10:00",
     "created_at": "2026-06-25T17:00:05+00:00",
