@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260625-200006",
+    "title": "Lingtai Study Music — 2026-06-25 20:00",
+    "created_at": "2026-06-26T03:00:06+00:00",
+    "prompt": "stars over the grotto, sparse celesta-like textures; incense smoke drifting through the Lingtai cave at dawn; with a hint of the bottle of pure water tilting, a single drop falling; contemplative, cinematic, instrumental, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260625-200006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Stars over the grotto",
+        "zh": "灵台学习音乐 · 洞府繁星",
+        "wy": "灵台诵读之曲 · 洞天星河"
+      },
+      "prompt": {
+        "en": "Stars over the grotto; a hint of Lingtai grotto, with Guanyin in the distance.",
+        "zh": "洞府繁星；近现灵台洞府意，远透观音韵。",
+        "wy": "洞天星河；近寓灵台洞天之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260625-190006",
     "title": "Lingtai Study Music — 2026-06-25 19:00",
     "created_at": "2026-06-26T02:00:06+00:00",
