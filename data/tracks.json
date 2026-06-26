@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260626-160005",
+    "title": "Lingtai Study Music — 2026-06-26 16:00",
+    "created_at": "2026-06-26T23:00:05+00:00",
+    "prompt": "sun low over distant peaks, golden brass-like swells; the patriarch's bell ringing once across the Lingtai valley; with a hint of the Monkey King at rest on Flower-Fruit Mountain, ten thousand monkeys quiet; instrumental, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion.",
+    "file": "assets/tracks/20260626-160005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sun low over distant peaks",
+        "zh": "灵台学习音乐 · 远峰夕照",
+        "wy": "灵台诵读之曲 · 远岫夕晖"
+      },
+      "prompt": {
+        "en": "Sun low over distant peaks; a hint of Lingtai grotto, with the Monkey King in the distance.",
+        "zh": "远峰夕照；近现灵台洞府意，远透美猴王韵。",
+        "wy": "远岫夕晖；近寓灵台洞天之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260626-150001",
     "title": "Lingtai Study Music — 2026-06-26 15:00",
     "created_at": "2026-06-26T22:00:01+00:00",
