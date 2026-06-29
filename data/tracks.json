@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260629-000005",
+    "title": "Lingtai Study Music — 2026-06-29 00:00",
+    "created_at": "2026-06-29T07:00:05+00:00",
+    "prompt": "midnight stillness, deep gongs, distant water dripping; moonlight pooling on the Lingtai grotto's stone steps; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; east asian classical fusion, contemplative, guzheng, pipa, erhu, bamboo flute, soft pads, cinematic.",
+    "file": "assets/tracks/20260629-000005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midnight stillness",
+        "zh": "灵台学习音乐 · 子夜寂",
+        "wy": "灵台诵读之曲 · 夜阑寂寂"
+      },
+      "prompt": {
+        "en": "Midnight stillness; a hint of Lingtai grotto, with the Bodhi patriarch in the distance.",
+        "zh": "子夜寂；近现灵台洞府意，远透菩提祖师韵。",
+        "wy": "夜阑寂寂；近寓灵台洞天之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260628-230005",
     "title": "Lingtai Study Music — 2026-06-28 23:00",
     "created_at": "2026-06-29T06:00:05+00:00",
