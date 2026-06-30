@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260630-010004",
+    "title": "Lingtai Study Music — 2026-06-30 01:00",
+    "created_at": "2026-06-30T08:00:04+00:00",
+    "prompt": "the hour of the rat, sparse koto and breath; the patriarch's brushwork on rice paper, slow and certain; with a hint of the iron staff humming, ready, but lowered; contemplative, cinematic, guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion.",
+    "file": "assets/tracks/20260630-010004.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — The hour of the rat",
+        "zh": "灵台学习音乐 · 鼠时清",
+        "wy": "灵台诵读之曲 · 鼠时初静"
+      },
+      "prompt": {
+        "en": "The hour of the rat; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "鼠时清；近现菩提祖师意，远透美猴王韵。",
+        "wy": "鼠时初静；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260630-000005",
     "title": "Lingtai Study Music — 2026-06-30 00:00",
     "created_at": "2026-06-30T07:00:05+00:00",
