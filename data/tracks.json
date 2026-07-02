@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260702-080006",
+    "title": "Lingtai Study Music — 2026-07-02 08:00",
+    "created_at": "2026-07-02T15:00:06+00:00",
+    "prompt": "pilgrims set out, walking rhythm, light percussion; moonlight pooling on the Lingtai grotto's stone steps; with a hint of the patriarch's brushwork on rice paper, slow and certain; contemplative, guzheng, pipa, erhu, bamboo flute, soft pads, cinematic, no vocals.",
+    "file": "assets/tracks/20260702-080006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Pilgrims set out",
+        "zh": "灵台学习音乐 · 行者启程",
+        "wy": "灵台诵读之曲 · 行者发足"
+      },
+      "prompt": {
+        "en": "Pilgrims set out; a hint of Lingtai grotto, with the Bodhi patriarch in the distance.",
+        "zh": "行者启程；近现灵台洞府意，远透菩提祖师韵。",
+        "wy": "行者发足；近寓灵台洞天之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260702-070005",
     "title": "Lingtai Study Music — 2026-07-02 07:00",
     "created_at": "2026-07-02T14:00:05+00:00",
