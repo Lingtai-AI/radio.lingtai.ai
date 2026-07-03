@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260703-130002",
+    "title": "Lingtai Study Music — 2026-07-03 13:00",
+    "created_at": "2026-07-03T20:00:02+00:00",
+    "prompt": "afternoon clouds gathering, layered xiao and koto; moonlit meditation in the cave of slanted moon and three stars; with a hint of the Monkey King studying his own shadow at the edge of a cliff; instrumental, guzheng, pipa, erhu, bamboo flute, soft pads, no vocals, contemplative.",
+    "file": "assets/tracks/20260703-130002.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Afternoon clouds gathering",
+        "zh": "灵台学习音乐 · 午后云聚",
+        "wy": "灵台诵读之曲 · 午后云生"
+      },
+      "prompt": {
+        "en": "Afternoon clouds gathering; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "午后云聚；近现菩提祖师意，远透美猴王韵。",
+        "wy": "午后云生；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260703-120004",
     "title": "Lingtai Study Music — 2026-07-03 12:00",
     "created_at": "2026-07-03T19:00:04+00:00",
