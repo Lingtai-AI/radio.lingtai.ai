@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260704-050005",
+    "title": "Lingtai Study Music — 2026-07-04 05:00",
+    "created_at": "2026-07-04T12:00:05+00:00",
+    "prompt": "morning bell, slow temple chant texture (instrumental); Subhuti the Bodhi patriarch tracing a single character in sand; with a hint of the Monkey King studying his own shadow at the edge of a cliff; contemplative, east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental.",
+    "file": "assets/tracks/20260704-050005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Morning bell",
+        "zh": "灵台学习音乐 · 晨钟",
+        "wy": "灵台诵读之曲 · 晨钟一杵"
+      },
+      "prompt": {
+        "en": "Morning bell; a hint of the Bodhi patriarch, with the Monkey King in the distance.",
+        "zh": "晨钟；近现菩提祖师意，远透美猴王韵。",
+        "wy": "晨钟一杵；近寓菩提老祖之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260704-040005",
     "title": "Lingtai Study Music — 2026-07-04 04:00",
     "created_at": "2026-07-04T11:00:05+00:00",
