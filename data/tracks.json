@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260704-160005",
+    "title": "Lingtai Study Music — 2026-07-04 16:00",
+    "created_at": "2026-07-04T23:00:05+00:00",
+    "prompt": "sun low over distant peaks, golden brass-like swells; incense smoke drifting through the Lingtai cave at dawn; with a hint of Guanyin's willow branch sprinkling sweet dew over the southern sea; no vocals, cinematic, contemplative, instrumental.",
+    "file": "assets/tracks/20260704-160005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sun low over distant peaks",
+        "zh": "灵台学习音乐 · 远峰夕照",
+        "wy": "灵台诵读之曲 · 远岫夕晖"
+      },
+      "prompt": {
+        "en": "Sun low over distant peaks; a hint of Lingtai grotto, with Guanyin in the distance.",
+        "zh": "远峰夕照；近现灵台洞府意，远透观音韵。",
+        "wy": "远岫夕晖；近寓灵台洞天之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260704-150002",
     "title": "Lingtai Study Music — 2026-07-04 15:00",
     "created_at": "2026-07-04T22:00:02+00:00",
