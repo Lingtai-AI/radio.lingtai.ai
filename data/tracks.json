@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260704-210005",
+    "title": "Lingtai Study Music — 2026-07-04 21:00",
+    "created_at": "2026-07-05T04:00:05+00:00",
+    "prompt": "the hour of the dog, distant temple chime; moonlit meditation in the cave of slanted moon and three stars; with a hint of Guanyin's willow branch sprinkling sweet dew over the southern sea; no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental, cinematic.",
+    "file": "assets/tracks/20260704-210005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — The hour of the dog",
+        "zh": "灵台学习音乐 · 戌时远钟",
+        "wy": "灵台诵读之曲 · 戌时遥钟"
+      },
+      "prompt": {
+        "en": "The hour of the dog; a hint of the Bodhi patriarch, with Guanyin in the distance.",
+        "zh": "戌时远钟；近现菩提祖师意，远透观音韵。",
+        "wy": "戌时遥钟；近寓菩提老祖之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260704-200004",
     "title": "Lingtai Study Music — 2026-07-04 20:00",
     "created_at": "2026-07-05T03:00:04+00:00",
