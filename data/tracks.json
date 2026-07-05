@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260705-080004",
+    "title": "Lingtai Study Music — 2026-07-05 08:00",
+    "created_at": "2026-07-05T15:00:04+00:00",
+    "prompt": "pilgrims set out, walking rhythm, light percussion; wind in the pines above the Lingtai grotto; with a hint of the iron staff humming, ready, but lowered; guzheng, pipa, erhu, bamboo flute, soft pads, no vocals, east asian classical fusion, instrumental.",
+    "file": "assets/tracks/20260705-080004.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Pilgrims set out",
+        "zh": "灵台学习音乐 · 行者启程",
+        "wy": "灵台诵读之曲 · 行者发足"
+      },
+      "prompt": {
+        "en": "Pilgrims set out; a hint of Lingtai grotto, with the Monkey King in the distance.",
+        "zh": "行者启程；近现灵台洞府意，远透美猴王韵。",
+        "wy": "行者发足；近寓灵台洞天之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260705-070004",
     "title": "Lingtai Study Music — 2026-07-05 07:00",
     "created_at": "2026-07-05T14:00:04+00:00",
