@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260706-160006",
+    "title": "Lingtai Study Music — 2026-07-06 16:00",
+    "created_at": "2026-07-06T23:00:06+00:00",
+    "prompt": "sun low over distant peaks, golden brass-like swells; wind in the pines above the Lingtai grotto; with a hint of Sun Wukong leaping between cloud and mountain, somersault clouds trailing; instrumental, no vocals, cinematic, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260706-160006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Sun low over distant peaks",
+        "zh": "灵台学习音乐 · 远峰夕照",
+        "wy": "灵台诵读之曲 · 远岫夕晖"
+      },
+      "prompt": {
+        "en": "Sun low over distant peaks; a hint of Lingtai grotto, with the Monkey King in the distance.",
+        "zh": "远峰夕照；近现灵台洞府意，远透美猴王韵。",
+        "wy": "远岫夕晖；近寓灵台洞天之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260706-150005",
     "title": "Lingtai Study Music — 2026-07-06 15:00",
     "created_at": "2026-07-06T22:00:05+00:00",
