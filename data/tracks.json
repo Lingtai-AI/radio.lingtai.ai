@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260707-220006",
+    "title": "Lingtai Study Music — 2026-07-07 22:00",
+    "created_at": "2026-07-08T05:00:06+00:00",
+    "prompt": "late night writing by oil lamp, ink and paper; Guanyin's compassion carried on a soft sea wind; with a hint of the Monkey King studying his own shadow at the edge of a cliff; east asian classical fusion, no vocals, guzheng, pipa, erhu, bamboo flute, soft pads, instrumental.",
+    "file": "assets/tracks/20260707-220006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Lamp-lit writing",
+        "zh": "灵台学习音乐 · 灯下抄书",
+        "wy": "灵台诵读之曲 · 孤灯弄翰"
+      },
+      "prompt": {
+        "en": "Lamp-lit writing; a hint of Guanyin, with the Monkey King in the distance.",
+        "zh": "灯下抄书；近现观音意，远透美猴王韵。",
+        "wy": "孤灯弄翰；近寓观自在之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260707-200002",
     "title": "Lingtai Study Music — 2026-07-07 20:00",
     "created_at": "2026-07-08T03:00:02+00:00",
