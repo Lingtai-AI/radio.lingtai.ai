@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260707-200002",
+    "title": "Lingtai Study Music — 2026-07-07 20:00",
+    "created_at": "2026-07-08T03:00:02+00:00",
+    "prompt": "stars over the grotto, sparse celesta-like textures; wind in the pines above the Lingtai grotto; with a hint of Subhuti the Bodhi patriarch tracing a single character in sand; contemplative, cinematic, instrumental, guzheng, pipa, erhu, bamboo flute, soft pads.",
+    "file": "assets/tracks/20260707-200002.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Stars over the grotto",
+        "zh": "灵台学习音乐 · 洞府繁星",
+        "wy": "灵台诵读之曲 · 洞天星河"
+      },
+      "prompt": {
+        "en": "Stars over the grotto; a hint of Lingtai grotto, with the Bodhi patriarch in the distance.",
+        "zh": "洞府繁星；近现灵台洞府意，远透菩提祖师韵。",
+        "wy": "洞天星河；近寓灵台洞天之意，远含菩提老祖之韵。"
+      }
+    }
+  },
+  {
     "id": "20260707-180006",
     "title": "Lingtai Study Music — 2026-07-07 18:00",
     "created_at": "2026-07-08T01:00:06+00:00",
