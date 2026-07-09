@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260708-190006",
+    "title": "Lingtai Study Music — 2026-07-08 19:00",
+    "created_at": "2026-07-09T02:00:06+00:00",
+    "prompt": "night meditation, deep drone, slow breath; the Monkey King studying his own shadow at the edge of a cliff; with a hint of the bottle of pure water tilting, a single drop falling; cinematic, east asian classical fusion, guzheng, pipa, erhu, bamboo flute, soft pads, contemplative.",
+    "file": "assets/tracks/20260708-190006.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Night meditation",
+        "zh": "灵台学习音乐 · 夜坐",
+        "wy": "灵台诵读之曲 · 夜坐参禅"
+      },
+      "prompt": {
+        "en": "Night meditation; a hint of the Monkey King, with Guanyin in the distance.",
+        "zh": "夜坐；近现美猴王意，远透观音韵。",
+        "wy": "夜坐参禅；近寓齐天大圣之意，远含观自在之韵。"
+      }
+    }
+  },
+  {
     "id": "20260708-180003",
     "title": "Lingtai Study Music — 2026-07-08 18:00",
     "created_at": "2026-07-09T01:00:03+00:00",
