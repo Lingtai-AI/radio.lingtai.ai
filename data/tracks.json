@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260711-120004",
+    "title": "Lingtai Study Music — 2026-07-11 12:00",
+    "created_at": "2026-07-11T19:00:04+00:00",
+    "prompt": "midday heat shimmer, soft drone and bamboo flute; wind in the pines above the Lingtai grotto; with a hint of Sun Wukong leaping between cloud and mountain, somersault clouds trailing; guzheng, pipa, erhu, bamboo flute, soft pads, east asian classical fusion, cinematic, no vocals.",
+    "file": "assets/tracks/20260711-120004.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Midday heat shimmer",
+        "zh": "灵台学习音乐 · 正午光摇",
+        "wy": "灵台诵读之曲 · 日中光颤"
+      },
+      "prompt": {
+        "en": "Midday heat shimmer; a hint of Lingtai grotto, with the Monkey King in the distance.",
+        "zh": "正午光摇；近现灵台洞府意，远透美猴王韵。",
+        "wy": "日中光颤；近寓灵台洞天之意，远含齐天大圣之韵。"
+      }
+    }
+  },
+  {
     "id": "20260711-110006",
     "title": "Lingtai Study Music — 2026-07-11 11:00",
     "created_at": "2026-07-11T18:00:06+00:00",
