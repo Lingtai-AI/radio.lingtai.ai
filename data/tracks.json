@@ -1,5 +1,25 @@
 [
   {
+    "id": "20260713-140005",
+    "title": "Lingtai Study Music — 2026-07-13 14:00",
+    "created_at": "2026-07-13T21:00:05+00:00",
+    "prompt": "shadows lengthening on monastery walls, contemplative; Guanyin's willow branch sprinkling sweet dew over the southern sea; with a hint of incense smoke drifting through the Lingtai cave at dawn; cinematic, no vocals, east asian classical fusion, instrumental.",
+    "file": "assets/tracks/20260713-140005.mp3",
+    "duration": null,
+    "display": {
+      "title": {
+        "en": "Lingtai Study Music — Shadows lengthening",
+        "zh": "灵台学习音乐 · 影渐长",
+        "wy": "灵台诵读之曲 · 日影渐斜"
+      },
+      "prompt": {
+        "en": "Shadows lengthening; a hint of Guanyin, with Lingtai grotto in the distance.",
+        "zh": "影渐长；近现观音意，远透灵台洞府韵。",
+        "wy": "日影渐斜；近寓观自在之意，远含灵台洞天之韵。"
+      }
+    }
+  },
+  {
     "id": "20260713-130005",
     "title": "Lingtai Study Music — 2026-07-13 13:00",
     "created_at": "2026-07-13T20:00:05+00:00",
